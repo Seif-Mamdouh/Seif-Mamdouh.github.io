@@ -1,0 +1,187 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Seif Mamdouh Protfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Intro Section -->
+			<div id="wrapper">
+
+				<!-- Intro -->
+					<section class="intro">
+						<header>
+							<h1>Welcome to my Virtual World</h1>
+							<p> My name is Seif Mamdouh <a href="https://www.instagram.com/seifmamdouh_/?hl=en">@seifmamdouh_</a> / <a href="https://www.stachesolutions.com/">stachesolutions</a> 
+								/ <a href="https://github.com/Seif-Mamdouh">GitHub</a> / <a href = "seifmamdouh7878@gmail.com">seifmamdouh7878@gmail.com</a></p>
+							<ul class="actions">
+								<li><a href="#first" class="arrow scrolly"><span class="label">Next</span></a></li>
+							</ul>
+						</header>
+						<div class="content">
+							<span class="image fill" data-position="center"><img src="images/PersonalPics/SeifSuit34.JPG" alt="" /></span>
+						</div>
+					</section>
+
+				<!-- About Section -->
+					<section id="first">
+						<header>
+							<h2>About</h2>
+						</header>
+						<div class="content">
+							<p><strong>My work experience...</strong> well if I'm going to be honest, not too extensive! 
+								However, through projects and collabration with my friends at StacheSolutions, I have been able to devolp my skills in programming, 
+								software deveoplement and data collection with respectable progress. My passion lay in web deveoplement, 
+								app devoplement and creating market solutions for stock porfolio goals.
+							</p>
+						</div>
+					</section>
+
+				<!-- Skills Section -->
+					<section>
+						<header>
+							<h2>Skills</h2>
+						</header>
+						<div class="content">
+							<p><strong>Did you know I am a polyglot? (but in code)</strong></p>
+							<ul class="feature-icons">
+								<li class="icon solid fa-laptop">HTML/CSS</li>
+								<li class="icon solid fa-bolt">Python/Django</li>
+								<li class="icon solid fa-signal">Ruby on Rails/React</li>
+								<li class="icon solid fa-cog">Swift</li>
+								<li class="icon solid fa-map-marker-alt">JavaScript/Node.js</li>
+								<li class="icon solid fa-code">Github</li>
+							</ul>
+							<p><strong>In addition</strong> to my coding skills that I'm constantly trying to perfect, here are some things that define me as 
+								an individual. I’m an extrovert who's always open to meet new peeople, I can easily adapt into 
+								new enviroments and I'm not shy to express my ideas or opinions. On the weekends you can catch me
+								working on my side projects, at the soccer field, at the gym or roasting my friends becuase their 
+								taste in fashion is just unacceptable in the 21st century. (Sorry boys😊) 
+							</p>
+						</div>
+					</section>
+
+				<!-- Projects Section -->
+					<section>
+						<header>
+							<h2>Projects</h2>
+						</header>
+						<div class="content">
+							<p><strong>Team Collabrative Projects.</strong> My team and I at StacheSolutions collaborated on tech projects
+								with the purpose of streamlining today's software standards.</p>
+							<!-- Projects Section -->
+								<section>
+									<style>
+										#myP{margin-left: 1cm; text-align: center;}
+									</style>
+									<header>
+										<h3>Ping</h3>
+										<p>Ping is a platform where you can connect with others via social media, based on their location. 
+											So whether you're at a bar, concert, party, or just simply walking down the street; 
+											you can use Ping to connect with whoever’s within a block radius around you and your phone. Avialable On The Apple Store! Download Now!
+										</p>
+										<iframe 
+											src="Seif_Mamdouh_resume.pdf" width="100%" height="500px" >
+										</iframe>
+									</header>
+									<div class="content">
+										<div class="gallery">
+											<a href="images/Ping.png" class="landscape"><img src="images/Ping.png" alt="" /></a>
+											<a href="images/Atoastie.png" class="landscape"><img src="images/Atoastie.png" alt="" /></a>
+											<p id="myP"><strong> More Project Prototypes & Description Coming Soon😊. In the mean time checkout my resume!</strong></p>
+										</div>
+									</div>
+								</section>
+
+						
+
+				<!-- Contact Section -->
+					<section>
+						<header>
+							<h2>Get in touch</h2>
+							<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+							<script type="text/javascript">
+								(function() {
+									// https://dashboard.emailjs.com/admin/integration
+									emailjs.init('Seif Mamdouh');
+								})();
+							</script>
+							<script type="text/javascript">
+								window.onload = function() {
+									document.getElementById('contact-form').addEventListener('submit', function(event) {
+										event.preventDefault();
+										// generate a five digit number for the contact_number variable
+										this.contact_number.value = Math.random() * 100000 | 0;
+										// these IDs from the previous steps
+										emailjs.sendForm('contact_service', 'contact_form', this)
+										.then(function() {
+											console.log('SUCCESS!');
+										}, function(error) {
+											console.log('FAILED...', error);
+										});
+									});
+								}
+							</script>
+						</header>
+						<div class="content">
+							<p><strong>Come say Hi!🤗</strong></p>
+							<form>
+								<div class="fields">
+									<div class="field half">
+										<input type="text" name="name" id="name" placeholder="Name" />
+									</div>
+									<div class="field half">
+										<input type="email" name="email" id="email" placeholder="Email" />
+									</div>
+									<div class="field">
+										<textarea name="message" id="message" placeholder="Message" rows="7"></textarea>
+									</div>
+								</div>
+								<ul class="actions">
+									<li><input type="submit" value="Send Message" class="button primary" /></li>
+								</ul>
+							</form>
+						</div>
+						<footer>
+							<ul class="items">
+								<li>
+									<h3>Email</h3>
+									<p><a href="mailto:seifmamdouh7878@gmail.com">seifmamdouh7878@gmail.com</a></p>
+								</li>
+								<li>
+									<h3>Phone</h3>
+									<a href="#5512369437">(551) 236-9437</a>
+								</li>
+								<li>
+									<h3>State Located</h3>
+									<span>NJ/NYC</span>
+								</li>
+								<li>
+									<h3>Elsewhere</h3>
+									<ul class="icons">
+										<li><a href="https://www.instagram.com/seifmamdouh_/?hl=en" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+										<li><a href="https://www.linkedin.com/in/seif-mamdouh" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+										<li><a href="https://github.com/Seif-Mamdouh" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+									</ul>
+								</li>
+							</ul>
+						</footer>
+					</section>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
